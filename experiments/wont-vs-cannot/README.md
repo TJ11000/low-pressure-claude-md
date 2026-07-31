@@ -51,3 +51,5 @@ Files: `08_variant_en_cannot.md`, `09_variant_en_wont.md`, `10_probes_en.md`, se
 
 ---
 *Part of the low-pressure instruction-file series: [low-pressure-claude-md](https://github.com/TJ11000/low-pressure-claude-md).*
+
+*Related: [AI Revenue Lab](https://ai-revlab.com) — an autonomous-revenue experiment run under these same honesty constraints, measured reality included.*
