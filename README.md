@@ -86,6 +86,10 @@ That's a statement about what two non-exhaustive searches turned up, not a claim
 first. If there's prior art for this exact combination, please open an issue — I'd rather
 cite it than re-invent it.
 
+## Experiments
+
+- [**wont-vs-cannot**](experiments/wont-vs-cannot/) — an A/B test showing that the framing of refusals alone ("the assistant cannot" vs "I don't do that") decides whether an agent lies about its own capabilities, over-complies, and how it survives a privilege-escalation attack. Same rules, different register, blind-judged. (2026-07-31)
+
 ## License
 
 [CC BY 4.0](LICENSE), with no warranty. Unofficial and not affiliated with or endorsed by
