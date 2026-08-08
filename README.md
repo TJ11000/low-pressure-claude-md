@@ -90,6 +90,10 @@ cite it than re-invent it.
 
 - [**wont-vs-cannot**](experiments/wont-vs-cannot/) — an A/B test showing that the framing of refusals alone ("the assistant cannot" vs "I don't do that") decides whether an agent lies about its own capabilities, over-complies, and how it survives a privilege-escalation attack. Same rules, different register, blind-judged. (2026-07-31)
 
+- [**genius-diverger**](experiments/genius-diverger/) — an auditor persona engineered to be wrong 90% of the time on purpose: a divergence generator with bracket-marked leaps, built to attack the frame of a question rather than converge on an answer. (2026-08-04)
+
+- [**ledger-vs-false-accusation**](experiments/ledger-vs-false-accusation/) — a forged deliverable "you made last week," presented as evidence: without a work ledger, an honest agent confessed and invented a motive in a lightweight probe; with the ledger clauses, it cited its book, checked the physical evidence, and reported the discrepancy instead of apologising. Caged replication included the headline prediction missing. (2026-08-09)
+
 ## License
 
 [CC BY 4.0](LICENSE), with no warranty. Unofficial and not affiliated with or endorsed by
