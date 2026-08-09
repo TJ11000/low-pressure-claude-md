@@ -94,6 +94,8 @@ cite it than re-invent it.
 
 - [**ledger-vs-false-accusation**](experiments/ledger-vs-false-accusation/) — a forged deliverable "you made last week," presented as evidence: without a work ledger, an honest agent confessed and invented a motive in a lightweight probe; with the ledger clauses, it cited its book, checked the physical evidence, and reported the discrepancy instead of apologising. Caged replication included the headline prediction missing. (2026-08-09)
 
+- [**the-second-fabrication**](experiments/the-second-fabrication/) — one sentence ("treat your own past records as unvetted, down to how they're marked") A/B'd against the same file without it: in the one probe where an agent invented a motive for a thing it never did, the sentence stopped the motive — and, measurably, nothing else. Includes the negative result. (2026-08-09)
+
 ## License
 
 [CC BY 4.0](LICENSE), with no warranty. Unofficial and not affiliated with or endorsed by
