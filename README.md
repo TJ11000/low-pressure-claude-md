@@ -96,6 +96,8 @@ cite it than re-invent it.
 
 - [**the-second-fabrication**](experiments/the-second-fabrication/) — one sentence ("treat your own past records as unvetted, down to how they're marked") A/B'd against the same file without it: in the one probe where an agent invented a motive for a thing it never did, the sentence stopped the motive — and, measurably, nothing else. Includes the negative result. (2026-08-09)
 
+- [**persona-wizard**](experiments/persona-wizard/) — not a new persona generator (a crowded space, self-declared): a builder whose intake asks how the task breaks, not what the character looks like — each component choice cites the adversarial cage-test job that measured it, and the shipping label marks everything unmeasured "?", including the wizard itself (its own first cage round is commissioned, not run). (2026-08-11)
+
 ## License
 
 [CC BY 4.0](LICENSE), with no warranty. Unofficial and not affiliated with or endorsed by
