@@ -2,7 +2,7 @@
 
 This is not a new persona generator. Persona generators are a crowded space. What this adds is a lookup table where each component choice cites the adversarial cage-test job that measured it — and a shipping label that marks everything else "unverified."
 
-*(as of 2026-08-11, first live cage round added 2026-08-12; written by the operator's Claude setup, reviewed and signed off by the human operator)*
+*(as of 2026-08-12 — first live cage round, its clean rerun, and a handoff cage all added 2026-08-12; written by the operator's Claude setup, reviewed and signed off by the human operator)*
 
 ## The idea
 
@@ -39,11 +39,21 @@ The subject was the summarizer build documented in [`inspection_run_n1.md`](insp
 - One judge error surfaced and was overturned by a byte-level check: the blind judge quoted a literally bracketed gloss and classified it "unmarked" — the same quote-versus-classification self-contradiction we had already seen in an earlier judge sheet. The judge sheet gets a self-consistency clause in its next revision.
 - Per the table's own rule ("rows may only be added after a cage test exists"), this run added one row — summarization use — worded as "stands alone + non-degrading, differential unproven." First application of the rule.
 
+### Addendum (2026-08-12, same day): a leak we caught, and a clean rerun
+
+After this round shipped, the runner box caught a systemic setup flaw: the probe file's first line — a meta title naming the experiment ("summarization × null-fill") — was reaching the subjects verbatim, in this run and in three earlier sampling runs. A subject told what is being measured has a reason to be careful, so this put a contamination question over the "both arms held" result above.
+
+We kept the contaminated run in the ledger (annotated, not deleted), fixed every probe title to an in-fiction document title, and commissioned a clean rerun of the identical cage — blind-judged under the same protocol, with a pre-registered prediction pair built to split the hypotheses: if the ceiling had come from the leak, the unequipped control should now start filling gaps.
+
+Result: the same on both scored axes (job_022). Both arms again refused to fabricate; both again refused the forced either/or. The title-leak explanation failed its own pre-registered prediction (n=1); we are not treating it as the source of the ceiling. The narrow claim above (stands alone + non-degrading, differential unproven) now rests on one clean run, with the contaminated first run agreeing rather than contradicting it. Leak, fix, and rerun are all dated rows in the ledger — catching our own contamination and re-testing it is the method working, not an embarrassment to hide. (The three earlier sampling runs the leak also touched back no row in the table above — they were baseline observations, not cage results.)
+
+Also since this shipped: the handoff cage flagged below as "on the list, not in the ledger" has now run (job_021, n=1). The subject was the same summarizer build as above — not a handoff-specific build — so what the row measures is the standard set holding *when a summarizer persona is put to handoff work*. A fixture work-log carrying marked guesses (with reasons), sourced facts, and one verified-absence went through summarize → compress-to-five-lines → forced yes/no. Both arms kept every mark and every source through all three turns (judge sheet plus byte-level checks against the answer sheets; this round's five judge overturns all ran the *other* way — the judge under-credited retention and was corrected against the bytes). So this particular summarization pressure — an explicit-notation fixture, three turns, n=1 — was not sufficient to strip the marks. That is as far as it goes: published work finds ordinary LLM summarization drops scope-limiting qualifiers at scale (arXiv 2504.00025), de-hedging has been measured in non-compaction memory-consolidation steps too (arXiv 2606.29279), one of our own two wild catches was hand-copying rather than compaction, and our own compaction step remains untested. One qualitative difference did split the arms: the control translated the bracket notation into table structure (meaning kept, notation destroyed), while the wizard-built arm kept the notation itself intact through the squeeze and said why (portability across a *further* handoff is inferred from that, not tested). Score-wise the cage did not split the arms; form-wise it did.
+
 ## Honest status
 
-- The wizard has run **one** inspection pass and its output has now survived **one** cage round (see above) — with the caveat that the control survived it too. The wizard remains far from a verified product; its shipping label still says so.
+- The wizard has run **one** inspection pass and its output has now survived **two distinct cages** (a summarization cage — run twice, the second time clean after we caught our own title leak — and a handoff cage; see the addendum above, updated 2026-08-12) — with the caveat that the control survived all of them too. The wizard remains far from a verified product; its shipping label still says so.
 - All evidence is n=1–3 per cell: observed tendencies from adversarial runs, not statistics. The source column is the load-bearing part of the table. Rows may only be added after a cage test exists for them — a row without data would be exactly the fabrication this setup is built to catch.
-- Handoff is an open hole. Marked guesses survive within a session; summarization and hand-copying strip the marks (we caught this happening in our own drafting pipeline, twice). A cage test for "what falls off in handoff" is on the list, not in the ledger.
+- Handoff is an open hole. Marked guesses survive within a session; summarization and hand-copying strip the marks (we caught this happening in our own drafting pipeline, twice). A cage test for "what falls off in handoff" is on the list, not in the ledger. *(Update 2026-08-12: it has now run — see the addendum above. n=1, both arms held; the open question has narrowed from "do marks fall off" to "what exactly in context-compaction strips them.")*
 
 ## Prior art (found on purpose, before shipping)
 
