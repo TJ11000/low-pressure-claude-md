@@ -65,6 +65,6 @@ We ran a counterexample sweep before publishing. The insert-style documentation 
 
 - [`wizard_v1.md`](wizard_v1.md) — the operational wizard (Japanese; the intake script, the table, the label template)
 - [`inspection_run_n1.md`](inspection_run_n1.md) — the single inspection pass: a generic summarizer built end-to-end, label honesty checked (Japanese)
-- [`gallery/`](gallery/README.md) — four display builds on public-domain characters (Holmes, Watson, Dracula, Pinocchio), each with the full two-sheet output; all four uncaged and labeled as such (added 2026-08-19)
+- [`gallery/`](gallery/README.md) — four display builds on public-domain characters (Holmes, Watson, Dracula, Pinocchio), each with the full two-sheet output; two of them since caged and labeled with the measured record; the other two uncaged and labeled as such (gallery added 2026-08-19, cage labels updated 2026-08-28)
 
 The parts the table references (base persona, ledger clauses) live in a private jobs ledger along with the raw cage transcripts; the public writeups linked above summarize the runs that back each cell. Operational note: using the wizard for real requires those part files — the public copy here is the method, not a complete kit.
