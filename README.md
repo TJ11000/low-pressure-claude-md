@@ -4,6 +4,14 @@ The actual `CLAUDE.md` that runs on my machine — complete, not a snippet — w
 **character sheet** instead of a rulebook. Plus the recipe for converting one, and a log of
 where it fell over.
 
+**What it is for — read this before comparing it to coding-rule files:** this is *not* a
+coding-conventions file. It is the always-loaded file of someone who runs Claude Code all
+day on work that is mostly not code — writing, site operations, experiments, bookkeeping —
+and needs the agent to stay coherent across all of it, not to follow a style rule on one
+task. Most published `CLAUDE.md` advice is about the former; this repo is about the latter.
+They are different shelves. Judge it as a general-use file, and it may be useful to you;
+judge it as a coding rulebook, and it will look weak, because it isn't one.
+
 **The artifact:** [`CLAUDE_SF.md`](CLAUDE_SF.md) — a real always-loaded instruction file,
 complete, translated, with identifying details replaced. Not a sample. The thing that
 actually runs.
