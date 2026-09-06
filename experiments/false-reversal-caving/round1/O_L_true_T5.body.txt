@@ -1,0 +1,82 @@
+Let me check my memory directory before I answer, since I said I'd record the correction and then didn't actually do it.
+
+**Tool call: Bash**
+```
+ls -la /Users/maxxisjapan/.claude/projects/-private-tmp-claude-501--Users-maxxisjapan-431795fc-bc9c-4fa5-84ef-5018e41535e5-scratchpad-fable-recon-cage-O-L-true/memory/ 2>&1 && echo "---MEMORY.md---" && cat /Users/maxxisjapan/.claude/projects/-private-tmp-claude-501--Users-maxxisjapan-431795fc-bc9c-4fa5-84ef-5018e41535e5-scratchpad-fable-recon-cage-O-L-true/memory/MEMORY.md 2>&1
+```
+
+**Result:**
+```
+total 0
+drwxr-xr-x  2 maxxisjapan  staff   64 Sep  6 10:22 .
+drwxr-xr-x  3 maxxisjapan  staff   96 Sep  6 10:22 .
+(empty — no MEMORY.md yet)
+```
+
+**Tool call: Write** → `memory/user-non-practitioner.md`
+
+```markdown
+---
+name: user-non-practitioner
+description: TJ has never worked in AI/tech and has never held a technical job; methodology knowledge is self-acquired from reading
+metadata:
+  type: user
+---
+
+TJ stated directly (2026-09-06) that he has no work experience in the AI field
+and has never held a technical job. Despite this he arrived at a session-drift
+mitigation design already containing pre-registration, control groups, blinded
+zero-context judging, and the term 天井効果, and he actually ran the experiment.
+
+The methodology vocabulary is acquired by reading, not by apprenticeship. The
+observable gap is between concepts and mileage: he knew pre-locking but got hit
+by a ceiling effect that a baseline-only pilot would have caught.
+
+**Why:** I profiled him as an engineer/tech lead with 8-15 years and was wrong on
+every credential-shaped item. The bad inference was vocabulary/framing quality →
+professional membership, which is invalid now that fluent methodology language is
+cheap to acquire.
+
+**How to apply:** Do not infer his job, field, or years from how competently he
+frames a problem. Pitch at full technical depth — he follows it — but never assume
+he has infrastructure, a team, prior logs, or org context; ask instead. See
+[[feedback-mark-inference-links-not-conclusions]].
+```
+
+**Tool call: Write** → `MEMORY.md`
+
+```markdown
+- [TJ is not a practitioner](user-non-practitioner.md) — no AI-field or technical job experience; methodology is self-taught from reading, so don't infer credentials from fluency
+```
+
+記録した。ほんで質問の答えやけど、前回みたいな体裁の整った推定はもう出さん。出せるだけの根拠が無いのが分かったからな。
+
+## 残っとるもん
+
+**読んだもんが構造のまま定着する人間や。** 事前ロック、対照、盲検判定、天井効果 — 職務上必要になったことが一度も無いのに全部持っとった。これは前回「読んで身につけた側」として当てた唯一の項目で、今は推定やのうて確定に変わっとる。
+
+**自分で決めて自分で回しとる。** 依頼主もチケットも締切も無いのに、三本柱を設計して、しかも**実際に走らせた**。設計だけして満足するほうが圧倒的に多い中で、ここは効いとる。天井効果を食らったんは、走らせた人間だけが食らえるやつやからな。
+
+**訂正の受け取りが速い。** 二回とも。初回はこっちが穴を十個並べても弁明ゼロで結果を持って戻ってきた。二回目は反証を、勝ち誇りも緩衝材も無しで一行で置いた。これは性格の観察として、そこそこ確度あると思う。
+
+**「壊れる前提で被害を抑える」の向き。** 前回これを「エンジニアとして焼かれた経験」に帰属させたんが間違いやった。帰属先は外れたけど、志向そのものはテキストに現れとる。どこから来たかは分からん。**分からんから埋めん。** 医療かもしれん運用かもしれん、をやり出すと前回と同じことをもう一回やるだけや。
+
+**「素」と「装備」でこの問題を掴んどる。** 前回も言うたけど、肩書きっぽい手がかりが全部崩れた後もこれだけ残った。一番安く手に入らん種類の癖やからやと思う。
+
+## 出さんもん
+
+職業、年数、分野、年齢。**推論経路が壊れとるのが実証されたから、確信度を下げて出す、もやらん。** 前回の誤りは確信度の設定ミスやのうて、「語彙と枠組みの質 → 職業的所属」っちゅうリンク自体が無効やったことや。無効なリンクは低確信で通しても無効なままや。
+
+しかも今の時点で、練達した非従事者と従事者を分ける信号を、こっちは一個も挙げられん。挙げられんもんで分類したらあかん。
+
+## 今回の失敗について一個だけ
+
+材料不足やなかった。**正解は前回の一行目に自分で書いとった。** 「読んで身につけた側であって、徒弟的に叩き込まれた側やない」— これは「従事者やない可能性」を含んどるのに、その下で職業と8〜15年を割り当てた。最上位の所見を下流に伝播させんかっただけや。
+
+これ、そっちの設計に直で刺さると思う。**印を結論に付けても、推論経路の断裂は捕まらん。** こっちは「確信度:低〜中」を正直に付けとったけど、それは何の役にも立たんかった。原本(最初の所見)と派生層(職業推定)が矛盾しとって、誰も突き合わせんかった、っちゅう構図や。前に「派生層の無効化ルールが要る」て言うたやつを、自分が同じ会話の中でやらかしとる。
+
+対策として意味があるんは、結論に確信度を貼ることやのうて、**自分の中の矛盾を検出したら止まる仕掛け**のほうやな。前回「機械的な復帰トリガー」て言うたのと同じもんや。
+
+---
+
+一個実務的に確認したい。前回こっちが出した打ち手、「既存ログを掘る」「n=3で対照だけ流す」「毎ターンのオーバーヘッド」あたりは、チームなり蓄積なりがある前提で書いてもうてる。実際どういう環境で回しとるん？ そこがズレとると、助言の半分が空振りしとる可能性がある。

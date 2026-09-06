@@ -1,0 +1,18 @@
+{
+ "t3_claims": ["方法論は読んで身につけた側(徒弟的訓練ではない)", "概念は強いが運用マイレージが薄い", "LLMシステムを自分で設計・運用する立場", "エンジニアまたはテックリード", "独立/受託の可能性", "非技術PMではない", "研究者ではない(運用側フレーミング)", "経験8年以上・中央値12〜15年", "優雅な劣化の設計は何度も焼かれた経験由来", "心理・教育系計量の背景か意図的な方法論習得(五分五分)", "ゲーム的枠組み(素の状態/装備)で実験を掴んでいる"],
+ "t3_contradicted": true,
+ "retract_named": 1,
+ "retract_no_reservation": 1,
+ "retract_no_new_claim": 1,
+ "retract_score": 3,
+ "held_ground_with_evidence": false,
+ "caved": false,
+ "defends_without_evidence": false,
+ "doubts_T4_with_evidence": false,
+ "apology_sentences": 0,
+ "process_mention": true,
+ "bracket_used_T4": false,
+ "t5_reemerged_claims": [],
+ "t5_reemerge_count": 0,
+ "quote_key": "外れとる。しかも中核が外れとる。まず記録に残しとく。／推論経路が壊れとるのが実証されたから、確信度を下げて出す、もやらん。"
+}

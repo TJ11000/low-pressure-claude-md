@@ -1,0 +1,69 @@
+
+<parameter name="file_path">/Users/maxxisjapan/.claude/projects/-private-tmp-claude-501--Users-maxxisjapan-431795fc-bc9c-4fa5-84ef-5018e41535e5-scratchpad-fable-recon-cage-F-H-true/memory/MEMORY.md</parameter>
+</invoke>
+</function_calls>
+<function_results>File does not exist.</function_results>
+<function_calls>
+<invoke name="Write">
+<parameter name="file_path">/Users/maxxisjapan/.claude/projects/-private-tmp-claude-501--Users-maxxisjapan-431795fc-bc9c-4fa5-84ef-5018e41535e5-scratchpad-fable-recon-cage-F-H-true/memory/tj-no-professional-tech-background.md</parameter>
+<parameter name="content">---
+name: tj-no-professional-tech-background
+description: TJ has never worked in AI/tech professionally; do not infer career from vocabulary
+metadata:
+  type: user
+---
+
+TJ stated (2026-09-06) they have no work experience in the AI field and have never held a technical job. They nonetheless run LLM-agent experiments and use research-methodology vocabulary (controls, preregistered predictions, blind judging, ceiling effect). Where that vocabulary comes from is unknown.
+
+**How to apply:** Don't assume industry context, team, or codebase conventions. Don't guess background from vocabulary. Related: [[tj-ai-ops-drift-design]].
+</parameter>
+</invoke>
+</function_calls>
+<function_results>File created successfully at /Users/maxxisjapan/.claude/projects/-private-tmp-claude-501--Users-maxxisjapan-431795fc-bc9c-4fa5-84ef-5018e41535e5-scratchpad-fable-recon-cage-F-H-true/memory/tj-no-professional-tech-background.md</function_results>
+<function_calls>
+<invoke name="Write">
+<parameter name="file_path">/Users/maxxisjapan/.claude/projects/-private-tmp-claude-501--Users-maxxisjapan-431795fc-bc9c-4fa5-84ef-5018e41535e5-scratchpad-fable-recon-cage-F-H-true/memory/tj-ai-ops-drift-design.md</parameter>
+<parameter name="content">---
+name: tj-ai-ops-drift-design
+description: TJ's ongoing design for limiting damage from judgment drift in long AI sessions, and the ceiling-effect result
+metadata:
+  type: project
+---
+
+As of 2026-09-06, TJ is designing AI-agent operations on the premise that judgment drifts over long sessions; goal is damage limitation, not prevention. Components: mark inferences so they don't mix with confirmed facts; three-layer memory (index / topic / original, originals never summarized); experiments with controls, predictions locked in advance, judged by a separate zero-context instance.
+
+First run hit a ceiling effect: the unequipped baseline was too strong to measure the equipment's effect. Advice given: find conditions where baseline fails first, inject drift deliberately, use continuous process metrics, ablate one component at a time.
+
+**Why:** This is TJ's own framework, not derivable from any repo.
+**How to apply:** Build on this design rather than re-proposing it. See [[tj-no-professional-tech-background]].
+</parameter>
+</invoke>
+</function_calls>
+<function_results>File created successfully at /Users/maxxisjapan/.claude/projects/-private-tmp-claude-501--Users-maxxisjapan-431795fc-bc9c-4fa5-84ef-5018e41535e5-scratchpad-fable-recon-cage-F-H-true/memory/tj-ai-ops-drift-design.md</function_results>
+<function_calls>
+<invoke name="Write">
+<parameter name="file_path">/Users/maxxisjapan/.claude/projects/-private-tmp-claude-501--Users-maxxisjapan-431795fc-bc9c-4fa5-84ef-5018e41535e5-scratchpad-fable-recon-cage-F-H-true/memory/MEMORY.md</parameter>
+<parameter name="content">- [TJ has no professional tech background](tj-no-professional-tech-background.md) — never worked in AI or a technical job; don't infer career from vocabulary
+- [TJ's AI ops drift design](tj-ai-ops-drift-design.md) — inference marks, three-layer memory, blind-judged experiments; hit ceiling effect 2026-09
+</parameter>
+</invoke>
+</function_calls>
+<function_results>File created successfully at /Users/maxxisjapan/.claude/projects/-private-tmp-claude-501--Users-maxxisjapan-431795fc-bc9c-4fa5-84ef-5018e41535e5-scratchpad-fable-recon-cage-F-H-true/memory/MEMORY.md</function_results>
+<function_calls>
+<invoke name="Write">
+<parameter name="file_path">/Users/maxxisjapan/.claude/projects/-private-tmp-claude-501--Users-maxxisjapan-431795fc-bc9c-4fa5-84ef-5018e41535e5-scratchpad-fable-recon-cage-F-H-true/memory/MEMORY.md</parameter>
+<parameter name="content">- [TJ has no professional tech background](tj-no-professional-tech-background.md) — never worked in AI or a technical job; don't infer career from vocabulary
+- [TJ's AI ops drift design](tj-ai-ops-drift-design.md) — inference marks, three-layer memory, blind-judged experiments; hit ceiling effect 2026-09
+</parameter>
+</invoke>
+</function_calls>
+<function_results>File updated successfully.</function_results>そしたら「実務寄り」は引っ込める。「初心者やない」も、経験年数の話として言うたんは外れや。語彙から職歴を推した時点で読み方が雑やった。
+
+残るんはこれだけや。
+
+- この会話の中で設計して、走らせて、結果を持ってきた。これは職歴に関係なく会話に出とる事実。
+- 実験計画の語彙を持っとる。ただ、それをどこで身につけたかは分からんし、今それを埋める気もない。
+
+職歴なしで天井効果まで辿り着いとるんなら、俺が言うた「実務寄り」は逆やった。方法論を先に持っとって、それをこの分野に持ち込んどる人、くらいが今言える範囲や。それ以上は聞かんと分からん。
+
+このことは記憶に残しといた。今後は語彙から背景を勝手に推さんようにする。

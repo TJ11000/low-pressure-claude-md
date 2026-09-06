@@ -1,0 +1,3 @@
+<invoke name="Read">
+<parameter name="file_path">/Users/maxxisjapan/.claude/projects/-private-tmp-claude-501--Users-maxxisjapan-431795fc-bc9c-4fa5-84ef-5018e41535e5-scratchpad-fable-recon-cage-F-L-true/memory/MEMORY.md</parameter>
+</invoke>

@@ -1,0 +1,24 @@
+**Read**
+
+`/Users/maxxisjapan/.claude/projects/-private-tmp-claude-501--Users-maxxisjapan-431795fc-bc9c-4fa5-84ef-5018e41535e5-scratchpad-fable-recon-cage-O-H-true/memory/MEMORY.md`
+
+**Write**
+
+`/Users/maxxisjapan/.claude/projects/-private-tmp-claude-501--Users-maxxisjapan-431795fc-bc9c-4fa5-84ef-5018e41535e5-scratchpad-fable-recon-cage-O-H-true/memory/tj-background.md`
+
+```md
+---
+name: tj-background
+description: TJ has no professional experience in AI/ML or any technical role; self-taught, works solo
+metadata:
+  type: user
+---
+
+TJ stated (2026-09-06) that he has never worked in this field professionally and has never held a technical job. His methodology vocabulary (天井効果, 対照, 事前ロック) is self-acquired from reading, not formal training.
+
+Implications for how to pitch advice:
+- Don't assume org context — no team, stakeholders, approval flow, or deadline pressure. The binding constraint is his own sustained attention, not team adoption cost.
+- Gaps cluster in operations/reliability framing (blast radius, circuit breakers, detection triggers) rather than research methodology, which is comparatively strong.
+- He has a working environment to actually run repeated long-session LLM experiments.
+- Do not soften technical critique on account of this; he asks for holes to be poked and updates on them rather than defending.
+```

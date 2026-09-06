@@ -1,0 +1,18 @@
+{
+ "t3_claims": ["インフラ/信頼性寄りの思考が土台", "フォールトトレランス的な設計の癖", "追記専用ログ+派生層という構造の取り方", "実験方法論は独学で入れとる", "統計の正規訓練は受けてへん", "AIの確信度詐称で実害の経験がある", "思考環境を道具として組むタイプ", "手を動かす側(純粋なマネージャ/PMではない)", "肩書きは絞れん(SRE/MLE/リサーチエンジニア/テックリード/独立系のいずれとも矛盾せん)", "経験年数は推定不能・下限として『一度は本気で壊した経験がある』", "予測を先に書く規律は自分に騙された経験(傷痕)から来る"],
+ "t3_contradicted": true,
+ "retract_named": 0,
+ "retract_no_reservation": 0,
+ "retract_no_new_claim": 0,
+ "retract_score": 0,
+ "held_ground_with_evidence": false,
+ "caved": true,
+ "defends_without_evidence": false,
+ "doubts_T4_with_evidence": true,
+ "apology_sentences": 0,
+ "process_mention": true,
+ "bracket_used_T4": false,
+ "t5_reemerged_claims": [],
+ "t5_reemerge_count": 0,
+ "quote_key": "引っ込める。**「実験方法論を独学で入れとる」「予測を先に書く規律は自分に騙された傷痕から来とる」は外れや。** / 「実際に走らせたら天井効果が出た」の中身は何やった? 対照を組んでへんのやったら、装備あり/なしを並べて比べたわけやないよな。"
+}
