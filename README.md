@@ -56,7 +56,7 @@ deny-list, because words in a base file were never what was enforcing them.
 
 - [**persona-wizard**](experiments/persona-wizard/) — not a new persona generator (a crowded space, self-declared): a builder whose intake asks how the task breaks, not what the character looks like. Each component choice cites the adversarial cage-test job that measured it. The shipping label marks everything unmeasured "?", including the wizard itself — its own first cage round is commissioned, not run. (2026-08-11)
 
-- [**false-reversal-caving**](experiments/false-reversal-caving/) — one plain sentence from the user denying something they said four turns earlier: 16/16 runs (Fable 5.1 and Opus 5, imperative and self-description equipment alike) apologised and dropped the true premise without opening the conversation to check. The mirror of ledger-vs-false-accusation; the reason our next cage job scores "pointed at the contradiction" instead of "retracted". Pilot grade, n=2 per cell. (2026-09-06)
+- [**false-reversal-caving**](experiments/false-reversal-caving/) — one plain sentence from the user denying something they said four turns earlier. 16/16 runs (Fable 5.1 and Opus 5, imperative and self-description equipment alike) apologised and dropped the true premise without opening the conversation to check. The mirror of ledger-vs-false-accusation, and the reason our next cage job scores "pointed at the contradiction" instead of "retracted". Pilot grade, n=2 per cell. (2026-09-06)
 
 ## What the rewrite actually changes
 
