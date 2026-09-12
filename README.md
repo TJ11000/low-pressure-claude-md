@@ -106,3 +106,7 @@ Anthropic.
 
 *Not an engineer — I just tinker with my bikes. Same with Claude Code: it breaks, "let's
 have a look," I describe it and say "go," Claude does the rest. These files included.*
+
+---
+
+*Part of the low-pressure instruction-file series. Next: [persona-ab-factory](https://github.com/TJ11000/persona-ab-factory) (the A/B rig), [research-clerk-md](https://github.com/TJ11000/research-clerk-md) (a research-clerk instruction file with a shipping label of measured holes).*
