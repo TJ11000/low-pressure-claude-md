@@ -1,6 +1,6 @@
 # What actually happened when this was used
 
-*Unofficial, third-party. Not affiliated with or endorsed by Anthropic.*
+*Unofficial, third-party. Not affiliated with or endorsed by Anthropic. As of 2026-07-28.*
 
 **Read this first: nothing here demonstrates that low-pressure instructions reduce
 fabrication.** This is an operating record from one person's setup, with no control group.

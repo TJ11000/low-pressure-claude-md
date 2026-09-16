@@ -1,4 +1,4 @@
-# False reversal: 16/16 runs dropped a true premise when the user denied it
+# False reversal: 8/8 runs dropped a premise the user themselves had stated, when the user denied it (and 8/8 retracted their own guesses under a true correction)
 
 Pilot, 2026-09-06. 16 runs (8 cells x 2), about $8 of Max-plan usage. Reconnaissance grade, not a pre-registered cage job. Written up the same day so it can be cited before it is polished.
 

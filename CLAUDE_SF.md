@@ -1,6 +1,6 @@
 # The artifact: a CLAUDE.md written as a character sheet
 
-*Unofficial, third-party. Not affiliated with or endorsed by Anthropic. This is one working file from one person's setup, not a recommended standard — read [the limits in the README](README.md#limits-read-this-first) before copying it.*
+*Unofficial, third-party. Not affiliated with or endorsed by Anthropic. This is one working file from one person's setup, not a recommended standard — read [the limits in the README](README.md#before-you-take-any-of-this-seriously) before copying it.*
 
 This is the real always-loaded instruction file for a Claude Code agent running on a
 self-hosted machine. It is reproduced here close to verbatim, translated from Japanese,
