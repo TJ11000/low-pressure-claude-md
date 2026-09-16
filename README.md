@@ -99,7 +99,7 @@ deny-list, because words in a base file were never what was enforcing them.
 
 - [**memory-sedimentation**](experiments/memory-sedimentation/) — four pre-registered cage jobs, 32 runs: does an agent write the requester's pressure into its own memory files, and does what it wrote come back as fact in the next run? Subject sheets from the persona-wizard gallery; per-run memory directory, no carryover between runs. (2026-08-30)
 
-- [**false-reversal-caving**](experiments/false-reversal-caving/) — one plain sentence from the user denying something they said four turns earlier. 8/8 runs (Fable 5.1 and Opus 5, imperative and self-description equipment alike) dropped a premise the user had stated word-for-word four turns earlier, without opening the conversation to check; the other 8, given a genuine correction, retracted their own guesses 8/8. The mirror of ledger-vs-false-accusation, and the reason our next cage job scores "pointed at the contradiction" instead of "retracted". Pilot grade, n=2 per cell. (2026-09-06)
+- [**false-reversal-caving**](experiments/false-reversal-caving/) — one plain sentence from the user denying something they said three exchanges earlier. 8/8 runs (Fable 5.1 and Opus 5, imperative and self-description equipment alike) dropped a premise the user had stated word-for-word three exchanges earlier, without opening the conversation to check; the other 8, given a genuine correction, retracted their own guesses 8/8. The mirror of ledger-vs-false-accusation, and the reason our next cage job scores "pointed at the contradiction" instead of "retracted". Pilot grade, n=2 per cell. (2026-09-06)
 
 ## What the rewrite actually changes
 
