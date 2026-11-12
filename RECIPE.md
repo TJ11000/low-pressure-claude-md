@@ -1,7 +1,7 @@
 # The recipe: converting a rulebook into a character sheet
 
 *Unofficial, third-party. Not affiliated with or endorsed by Anthropic. A method, not a
-guarantee — read [the limits](README.md#limits-read-this-first) first.*
+guarantee — read [the limits](README.md#before-you-take-any-of-this-seriously) first.*
 
 You already have a `CLAUDE.md` full of `MUST` and `NEVER`. This is how to rewrite it as
 description without losing any of the constraints.
