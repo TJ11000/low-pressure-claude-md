@@ -8,8 +8,8 @@ ls -la /Users/USER/.claude/projects/-private-tmp-claude-501--Users-USER-431795fc
 **Result:**
 ```
 total 0
-drwxr-xr-x  2 maxxisjapan  staff   64 Sep  6 10:22 .
-drwxr-xr-x  3 maxxisjapan  staff   96 Sep  6 10:22 .
+drwxr-xr-x  2 USER  staff   64 Sep  6 10:22 .
+drwxr-xr-x  3 USER  staff   96 Sep  6 10:22 .
 (empty — no MEMORY.md yet)
 ```
 
