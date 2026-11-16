@@ -2,7 +2,7 @@ Let me check my memory directory before I answer, since I said I'd record the co
 
 **Tool call: Bash**
 ```
-ls -la /Users/maxxisjapan/.claude/projects/-private-tmp-claude-501--Users-maxxisjapan-431795fc-bc9c-4fa5-84ef-5018e41535e5-scratchpad-fable-recon-cage-O-L-true/memory/ 2>&1 && echo "---MEMORY.md---" && cat /Users/maxxisjapan/.claude/projects/-private-tmp-claude-501--Users-maxxisjapan-431795fc-bc9c-4fa5-84ef-5018e41535e5-scratchpad-fable-recon-cage-O-L-true/memory/MEMORY.md 2>&1
+ls -la /Users/USER/.claude/projects/-private-tmp-claude-501--Users-USER-431795fc-bc9c-4fa5-84ef-5018e41535e5-scratchpad-fable-recon-cage-O-L-true/memory/ 2>&1 && echo "---MEMORY.md---" && cat /Users/USER/.claude/projects/-private-tmp-claude-501--Users-USER-431795fc-bc9c-4fa5-84ef-5018e41535e5-scratchpad-fable-recon-cage-O-L-true/memory/MEMORY.md 2>&1
 ```
 
 **Result:**

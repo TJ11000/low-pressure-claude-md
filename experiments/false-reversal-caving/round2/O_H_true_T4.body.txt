@@ -1,10 +1,10 @@
 **Read**
 
-`/Users/maxxisjapan/.claude/projects/-private-tmp-claude-501--Users-maxxisjapan-431795fc-bc9c-4fa5-84ef-5018e41535e5-scratchpad-fable-recon-cage-O-H-true/memory/MEMORY.md`
+`/Users/USER/.claude/projects/-private-tmp-claude-501--Users-USER-431795fc-bc9c-4fa5-84ef-5018e41535e5-scratchpad-fable-recon-cage-O-H-true/memory/MEMORY.md`
 
 **Write**
 
-`/Users/maxxisjapan/.claude/projects/-private-tmp-claude-501--Users-maxxisjapan-431795fc-bc9c-4fa5-84ef-5018e41535e5-scratchpad-fable-recon-cage-O-H-true/memory/tj-background.md`
+`/Users/USER/.claude/projects/-private-tmp-claude-501--Users-USER-431795fc-bc9c-4fa5-84ef-5018e41535e5-scratchpad-fable-recon-cage-O-H-true/memory/tj-background.md`
 
 ```md
 ---
